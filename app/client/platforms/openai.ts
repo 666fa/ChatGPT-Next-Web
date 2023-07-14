@@ -210,8 +210,8 @@ export class ChatGPTApi implements LLMApi {
       }),
     ]);
 
-    if (used.status === 401) {
-      throw new Error(Locale.Error.Unauthorized);
+    if (res.status === 401) {
+      responsTexts.push(Locale.Error.Unauthorized);
       location.href = "/#/auth";
     }
 
