@@ -264,8 +264,8 @@ const cn = {
     BotHello:`公益版目前只开放的模型：
     4.0
     3.5-turbo-16k
-    其它将陆续开放
-    \n请发送你的问题`,
+    自己可以选择需要的模型，其它将陆续开放
+    \n请发送你的问题吧`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
