@@ -261,11 +261,11 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello:`你好，请问有什么可以帮到您？
-    \n公益版目前只开放的模型：
+    BotHello:`公益版目前只开放的模型：
     4.0
     3.5-turbo-16k
-    其它将陆续开放`,
+    其它将陆续开放
+    \n请发送你的问题`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
