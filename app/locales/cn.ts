@@ -2,15 +2,14 @@ import { SubmitKey } from "../store/config";
 
 const cn = {
   WIP: "该功能仍在开发中……",
-  Store: {
-    DefaultTopic: "新的聊天",
-    BotHello:`前往公众号：**[你的公众
+  Error: {
+    Unauthorized:`前往公众号：**[你的公众
 号名字]（你的公众号跳转链接)**回
 复**密码**免费获取密码，然后点
 击左下角[设置](/#/settings)按钮输入
 密码后解锁**免费使用**。
 **提问：**你可以在这里放一些常
-用问题吗？`,
+用问题吗？`,  },
 
   Auth: {
     Title: "输入您的访问密钥",
