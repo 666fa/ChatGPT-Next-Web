@@ -2,9 +2,8 @@ import { SubmitKey } from "../store/config";
 
 const cn = {
   WIP: "该功能仍在开发中……",
-Error: {
-    Unauthorized:
-      Store: {
+  Store: {
+    DefaultTopic: "新的聊天",
     BotHello:`前往公众号：**[你的公众
 号名字]（你的公众号跳转链接)**回
 复**密码**免费获取密码，然后点
@@ -12,8 +11,6 @@ Error: {
 密码后解锁**免费使用**。
 **提问：**你可以在这里放一些常
 用问题吗？`,
-      `欢迎使用PRO AI助手！看起来您还没有填写访问密钥，或者填写了过期的密钥，您可以关注公众号《[排骨五味汤](http://baidu.com)》免费领取最新密钥，然后[点击这里](/#/auth)填写密钥即可。如果你有自己的key可前往[设置](/#/settings)填写无需访问密钥也可使用！`,
-  },
 
   Auth: {
     Title: "输入您的访问密钥",
