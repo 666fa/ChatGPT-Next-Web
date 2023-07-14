@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/config";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized:`**欢迎使用PRO AI助手！**
+    Unauthorized:`**欢迎使用PRO AI助手公益版！**
     \n\n**看起来您没有填写/填写不正确“访问密钥”所以弹出此消息！**
     \n\n请前往公众号：**《[排骨五味汤](http://baidu.com)》** 回复【密钥】  **免费领取**，然后[点击这里](/#/auth)填写密钥即可。如果您有自己的key可点击[设置](/#/settings)填写，无需访问密钥也可使用。
 
