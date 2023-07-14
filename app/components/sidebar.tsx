@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
           New AI
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          Build free AI assistants for the public good.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
