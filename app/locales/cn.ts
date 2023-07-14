@@ -262,7 +262,8 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello:`你好，请问有什么可以帮到您？
-    \n\n**请务必遵守法律的前提下使用！**`,
+    \n\n**《请务必在法律允许范围内使用！》**
+    公益版目前只开放的模型：4.0、3.5-turbo-16k其它陆续开放`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
