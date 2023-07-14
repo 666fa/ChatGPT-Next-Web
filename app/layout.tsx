@@ -5,7 +5,7 @@ import "./styles/highlight.scss";
 import { getClientConfig } from "./config/client";
 
 export const metadata = {
-  title: "PRO AI",
+  title: "PRO AI公益版",
   description: "免费无限制使用gpt4",
   viewport: {
     width: "device-width",
@@ -17,7 +17,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "PRO AI",
+    title: "PRO AI公益版",
     statusBarStyle: "default",
   },
 };
