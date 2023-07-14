@@ -133,6 +133,7 @@ export class ChatGPTApi implements LLMApi {
 
               if (res.status === 401) {
                 responseTexts.push(Locale.Error.Unauthorized);
+                location.href = "/#/auth";
               }
 
               if (extraInfo) {
@@ -210,11 +211,10 @@ export class ChatGPTApi implements LLMApi {
       }),
     ]);
 
-    if (res.status === 401) {
-      responsTexts.push(Locale.Error.Unauthorized);
-      location.href = "/#/auth";
+   if (used.status === 401) {
+      throw new Error(Locale.Error.Unauthorized);
     }
-
+    
     if (!used.ok || !subs.ok) {
       throw new Error("Failed to query usage from openai");
     }
