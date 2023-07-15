@@ -265,7 +265,9 @@ const cn = {
     3.5 —— 3.5-turbo-16k
     4.0 ——— 4.0-0613
     未开放3.5-turbo-16k-0613和4.0-32k
-    您可以选择需要的模型，其它模型将陆续开放..
+    您可以切换需要的模型，其它模型将陆续开放..
+
+    如需帮助请联系群管理🐧[QQ群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=nhdCL8T-Hzbe9cOnN30GZkuvO6IloyDC&authKey=lGds%2FmHHkzYVLDfDaqKIjWfgGU1eXV9Kv9JFQTPgIszZg2gwpOnKQD8BjsNjB8Wu&noverify=0&group_code=874239338)
     \n请发送你的问题吧！`,
     Error: "出错了，稍后重试吧",
     Prompt: {
