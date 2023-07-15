@@ -14,7 +14,7 @@ const cn = {
 
 
 
-欢迎来吹水🐧[QQ群](你的Q群链接) **和** 防迷路🔔[公众号](你的公众号跳转链接)`,},
+欢迎来吹水🐧[QQ群](点击链接加入群聊【智能化聊天交流】：http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=nhdCL8T-Hzbe9cOnN30GZkuvO6IloyDC&authKey=lGds%2FmHHkzYVLDfDaqKIjWfgGU1eXV9Kv9JFQTPgIszZg2gwpOnKQD8BjsNjB8Wu&noverify=0&group_code=874239338) **和** 防迷路🔔[公众号](你的公众号跳转链接)`,},
 
   Auth: {
     Title: "输入您的访问密钥",
