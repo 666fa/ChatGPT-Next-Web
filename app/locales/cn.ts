@@ -261,7 +261,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello:`公益版目前只开放的模型：
+    BotHello:`New AI公益版目前只开放的模型：
     3.5 —— 3.5-turbo-16k
     4.0 ——— 4.0-0613
     未开放3.5-turbo-16k-0613和4.0-32k
